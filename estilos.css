@@ -1,18 +1,13 @@
     body{
-
+        background: url(img/corazon-1.png) repeat-y top left, url(img/corazon-2.png) repeat-y top right;
         background-color: rgb(255, 235, 240);
         background-size: 150px;
         text-align: center;
+        font-size: 1.25rem;
+        font-family: sans-serif;
+
     }
-    /*
-    background: url("fondos/corazon-1.svg") repeat-y top left, url("fondos/corazon-2.svg") repeat-y right top;
-    background-color: hsl(343, 100%, 96%);
-    background-size: 150px;
-    font-family: sans-serif;
-    font-size: 1.25rem;
-    text-align: center;
-    */
-    
+
     h1{
         text-transform: uppercase;
         font-size: 2rem;
@@ -21,4 +16,24 @@
     div{
         border: black solid 1px;
         margin: 10px 150px;
+        font-weight: bold;
+    }
+
+    div.s1{
+        background: url(fondos/estampado1.jpg);
+        color: white;
+    }
+
+    div.s2{
+        background: url(img/fuego.svg) no-repeat bottom left, url(img/fuego.svg) no-repeat bottom right, url(fondos/estampado2.jpg);
+        color: white;
+    }
+
+    div.s3{
+        background: url(img/ojo_estampado3.png) no-repeat center, url(fondos/estampado3.jpg);
+        color: white;
+    }
+
+    div.s4{
+        background: url(img/caballo_estampado4.svg) repeat-x bottom, url(fondos/estampado4.jpg);
     }
